@@ -10,5 +10,4 @@ H2 Database: An in-memory database for simplicity.
 Maven: For project management and dependency management.
 Postman: For testing the API endpoints.
 
-Project Structure:
-book-service: Manages book-related operations such as CRUD (Create, Read, Update, Delete).
+
