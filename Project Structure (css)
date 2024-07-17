@@ -1,0 +1,21 @@
+book-management-system
+├── src
+│   └── main
+│       ├── java
+│       │   └── com
+│       │       └── example
+│       │           └── bookservice
+│       │               ├── BookServiceApplication.java
+│       │               ├── controller
+│       │               │   └── BookController.java
+│       │               ├── model
+│       │               │   └── Book.java
+│       │               ├── repository
+│       │               │   └── BookRepository.java
+│       │               └── service
+│       │                   └── BookService.java
+│       └── resources
+│           ├── application.properties
+│           └── static
+│           └── templates
+└── pom.xml
