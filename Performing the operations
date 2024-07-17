@@ -1,0 +1,58 @@
+1. Get all books
+Method: GET
+URL: `http://localhost:8080/api/books`
+eg: [
+    {
+        "id": 1,
+        "title": "Spring Boot in Action",
+        "author": "Craig Walls",
+        "isbn": "9781617292545"
+    },
+    {
+        "id": 2,
+        "title": "Effective Java",
+        "author": "Joshua Bloch",
+        "isbn": "9780134685991"
+    }
+]
+
+2.Get a book by ID
+Method: GET
+URL: http://localhost:8080/api/books/{id}
+eg:{
+    "id": 1,
+    "title": "Spring Boot in Action",
+    "author": "Craig Walls",
+    "isbn": "9781617292545"
+}
+
+3.Create a new book
+Method: POST
+URL: http://localhost:8080/api/books  
+header:'Content-Type: application/json' \
+eg: {
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "isbn": "9780132350884"
+}
+
+4.Update an existing book
+Method: PUT
+URL: http://localhost:8080/api/books/{id}
+Headers: Content-Type: application/json
+eg: {
+    "id": 1,
+    "title": "Spring Boot in Practice",
+    "author": "Craig Walls",
+    "isbn": "9781617292545"
+}
+
+5.Delete a book by ID
+Method: DELETE
+URL: http://localhost:8080/api/books/{id}
+
+
+
+
+
+
